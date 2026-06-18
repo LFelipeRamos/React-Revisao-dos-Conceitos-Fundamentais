@@ -1,0 +1,30 @@
+.card {
+  padding: 22px;
+  border: 1px solid #dfe5da;
+  border-radius: 8px;
+  background: #fafbf8;
+  box-shadow: 0 8px 18px #d9dfd3;
+}
+
+.heading h2 {
+  margin: 0;
+  color: #18231c;
+  font-size: 28px;
+}
+
+.heading p {
+  margin: 8px 0 18px;
+  color: #66726a;
+}
+
+.lista {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+@media (max-width: 900px) {
+  .lista {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,65 @@
+.card {
+  padding: 22px;
+  border: 1px solid #dfe5da;
+  border-radius: 8px;
+  background: #fafbf8;
+  box-shadow: 0 8px 18px #d9dfd3;
+}
+
+.card h2 {
+  margin: 0;
+  color: #18231c;
+  font-size: 28px;
+}
+
+.card p {
+  margin: 8px 0 18px;
+  color: #66726a;
+}
+
+.form {
+  display: grid;
+  gap: 12px;
+  padding: 22px;
+  border: 1px solid #d9dfd3;
+  border-radius: 8px;
+  background: #f5f7f2;
+}
+
+.form label {
+  display: grid;
+  gap: 8px;
+  color: #405046;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.form input {
+  width: 100%;
+  min-height: 42px;
+  padding: 10px 12px;
+  border: 1px solid #c7d0c2;
+  border-radius: 8px;
+  background: #fdfdfb;
+  color: #223027;
+}
+
+.form input:focus {
+  border-color: #47704e;
+  outline: 2px solid #c9d8ca;
+}
+
+.form button {
+  width: 100%;
+  min-height: 42px;
+  padding: 9px 14px;
+  border: 0;
+  border-radius: 8px;
+  background: #315d3a;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.form button:hover {
+  background: #25482d;
+}

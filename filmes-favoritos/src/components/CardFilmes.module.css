@@ -1,0 +1,72 @@
+.card {
+  display: grid;
+  gap: 18px;
+  padding: 20px;
+  border: 1px solid #dfe5da;
+  border-radius: 8px;
+  background: #f7f8f4;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px #d9dfd3;
+}
+
+.header {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.header h3 {
+  margin: 0;
+  color: #18231c;
+  font-size: 24px;
+}
+
+.recomendado,
+.comum {
+  padding: 6px 10px;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.recomendado {
+  background: #eef4e5;
+  color: #53651c;
+}
+
+.comum {
+  background: #e7ece2;
+  color: #315d3a;
+}
+
+.metaList {
+  display: grid;
+  gap: 10px;
+  padding: 14px;
+  border: 1px solid #d8dfd1;
+  border-radius: 8px;
+  background: #edf1e8;
+}
+
+.metaList div {
+  display: grid;
+  gap: 2px;
+}
+
+.metaList span {
+  color: #66726a;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.metaList strong {
+  color: #223027;
+}

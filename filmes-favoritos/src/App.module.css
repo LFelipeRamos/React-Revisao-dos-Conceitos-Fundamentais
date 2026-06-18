@@ -1,0 +1,88 @@
+.appShell {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+.appHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 28px;
+  border: 1px solid #dfe5da;
+  border-radius: 8px;
+  background: #fafbf8;
+  box-shadow: 0 8px 20px #d9dfd3;
+}
+
+.appHeader h1 {
+  margin: 0;
+  color: #18231c;
+  font-size: 48px;
+  line-height: 1.1;
+}
+
+.appHeader p {
+  max-width: 620px;
+  margin: 12px 0 0;
+  color: #66726a;
+}
+
+.contador {
+  padding: 10px 16px;
+  border: 1px solid #d7ded2;
+  border-radius: 30px;
+  background: #eef2ea;
+  color: #18231c;
+  white-space: nowrap;
+}
+
+.pageGrid {
+  display: grid;
+  gap: 20px;
+  padding-top: 24px;
+}
+
+.pageCard {
+  padding: 22px;
+  border: 1px solid #dfe5da;
+  border-radius: 8px;
+  background: #fafbf8;
+  box-shadow: 0 8px 18px #d9dfd3;
+}
+
+.sectionHeading h2 {
+  margin: 0;
+  color: #18231c;
+  font-size: 28px;
+}
+
+.sectionHeading p {
+  margin: 8px 0 16px;
+  color: #66726a;
+}
+
+.pesquisa {
+  width: 100%;
+  min-height: 42px;
+  padding: 10px 12px;
+  border: 1px solid #c7d0c2;
+  border-radius: 8px;
+  background: #fdfdfb;
+  color: #223027;
+}
+
+.pesquisa:focus {
+  border-color: #47704e;
+  outline: 2px solid #c9d8ca;
+}
+
+.mensagem {
+  margin: 0;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background: #f2eadc;
+  color: #5f4521;
+  font-weight: bold;
+}
